@@ -1,0 +1,4 @@
+- for dir in Dir["views/apps/*"]
+  - app_name = File.basename dir
+  div
+    a href="/apps/#{app_name}" #{app_name}
