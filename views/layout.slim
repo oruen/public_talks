@@ -7,23 +7,4 @@ html
   body
     article class="deck-container presentation"
       == yield
-      div class="deck-remote-join-message"
-        p There is a session available. Would you like to join?
-        p class="deck-remote-links"
-          a href="#" class="deck-remote-ignore-link" Ignore
-          |
-          a href="#" class="deck-remote-join-link" Join
-      div class="deck-remote-leave-message"
-        p The session has ended
-        p class="deck-remote-links"
-          a href="#" class="deck-remote-close-link" Close
-      div class="deck-remote-master-message"
-        p Do you have the key?
-        p class="deck-remote-master-feedback"
-        form class="deck-remote-master-form" action=""
-          p
-            input class="deck-remote-password" type="password"
-          p class="deck-remote-links"
-            button type="submit"Start Session
-
     script type="text/javascript" src="/assets/application.js?#{rand.denominator}"
