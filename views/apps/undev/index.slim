@@ -2,9 +2,10 @@ link href="/assets/undev.css?#{rand.denominator}" media="screen" rel="stylesheet
 
 section.slide
   h1 Инфраструктура веб-приложений в компании Undev
-  h3.hello Nick Recobra
-  h3.hello https://github.com/oruen
-  h3.hello Undev
+  .intro
+    h3.hello Nick Recobra
+    h3.hello https://github.com/oruen
+    h3.hello https://github.com/Undev
 
 section.slide
   h2 Задачи инфраструктуры
@@ -69,6 +70,21 @@ section.slide
   a.info href="http://jenkins-ci.org/" http://jenkins-ci.org
 
 section.slide
+  h2 Capistrano
+  ul.x-large
+    li Деплой приложений
+  img.corner src="/assets/undev/capistrano.jpeg" style="width:320px;"
+  a.info href="http://capistranorb.com/" http://capistranorb.com
+
+section.slide
+  h2 Chef
+  ul.x-large
+    li Менеджмент конфигурации
+    li Деплой приложений
+  img.corner src="/assets/undev/chef.png"
+  a.info href="http://wiki.opscode.com/display/chef/Home" http://wiki.opscode.com/display/chef/Home
+
+section.slide
   h2 Open Build Service
   ul.x-large
     li
@@ -98,24 +114,10 @@ section.slide
   img.corner src="/assets/undev/labarbara.jpeg" style="height:320px;"
 
 section.slide
-  h2 Chef
-  ul.x-large
-    li Менеджмент конфигурации
-    li Деплой приложений
-  img.corner src="/assets/undev/chef.png"
-  a.info href="http://wiki.opscode.com/display/chef/Home" http://wiki.opscode.com/display/chef/Home
-
-section.slide
-  h2 Capistrano
-  ul.x-large
-    li Деплой приложений
-  img.corner src="/assets/undev/capistrano.jpeg" style="width:320px;"
-  a.info href="http://capistranorb.com/" http://capistranorb.com
-
-section.slide
   h2 Runit
   ul.x-large
     li Мониторинг сервисов
+    li Ведение логов
   a.info href="http://smarden.org/runit/" http://smarden.org/runit
 
 section.slide
@@ -129,7 +131,7 @@ section.slide
   ul.x-large
     li Отлов ошибок
     li История деплоев
-    li Уведомления о задеплоеном
+    li Уведомления о задеплоенном
   img.corner src="/assets/undev/dream-catcher.jpeg" style="height:500px;width:300px;"
   a.info href="https://github.com/errbit/errbit" https://github.com/errbit/errbit
 
@@ -156,3 +158,4 @@ section.slide
 
 section.slide
   h1 Спасибо!
+  h2.bye http://oruen.github.com/public_talks/apps/undev/
