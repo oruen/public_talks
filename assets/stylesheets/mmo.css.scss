@@ -1,0 +1,31 @@
+img.corner {
+  position: absolute;
+  top: 5em;
+  right: 2em;
+  width: 210px;
+  height: 200px;
+}
+
+a.info {
+  position: absolute;
+  bottom: 0.5em;
+  font-size: 3em;
+}
+
+.deck-container .slide h3.hello {
+  color: #C00;
+}
+
+.deck-container .slide h2.bye {
+  bottom: 1em;
+  position: absolute;
+  border: 0px;
+}
+
+.deck-container .slide .intro {
+  position: absolute;
+  bottom: 1em;
+  right: 2em;
+  text-align: right;
+}
+

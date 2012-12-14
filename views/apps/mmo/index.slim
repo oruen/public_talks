@@ -1,0 +1,124 @@
+link href="/assets/mmo.css?#{rand.denominator}" media="screen" rel="stylesheet" type="text/css"
+
+section.slide
+  h1 Браузерная ММО игра
+  .intro
+    h3.hello Nick Recobra
+    h3.hello https://github.com/oruen
+
+section.slide
+  h1 Браузерная МО игра
+  .intro
+    h3.hello Nick Recobra
+    h3.hello https://github.com/oruen
+
+section.slide
+  h1 Кто я?
+  ul.x-large
+  .notes 5 лет веб-девелопмента на руби и js
+
+section.slide
+  h1 Зачем я это делаю?
+  .notes
+    |
+      Давно, с детства, хотелось сделать игру.
+      Страсть поработать с новыми для меня технологиями: Erlang, SVG, d3, AI
+      Незнакомая область.
+
+section.slide
+  h2 Содержание
+  ul.x-large
+    li Demo
+    li Выбор игрового движка
+    li Что умеет браузер: SVG, Canvas, WebGL
+    li d3
+    li Новые штуки: геометрия, взаимодействия, анимации, спрайты, игровые петли, AI, Google Closure
+    li Процесс создания игры — что за чем происходило: начало боевки, генератор карт, хранение пользовательских данных и рельсы, глобальный экран
+    li бекенд на Эрланге, с ним как раз немного проблем
+    li Планы: AI, аудио, анимации
+
+section.slide
+  h2 Выбор движка: обязанности
+  ul.x-large
+    li Обработка пользовательского ввода
+    li Симуляция игрового мира
+    li Отрисовка сцен (анимации, физика)
+
+section.slide
+  h2 Выбор движка
+  h1 http://jswiki.org/game-engines.html
+
+section.slide
+  h2 Выбор движка: критерии отбора
+  ul.x-large
+    li Количество Stargazers
+    li Последний коммит
+    li Документация и гайды
+    li Количество открытых/закрытых issues
+    li Активность за последние несколько месяцев
+    li Количество активных контрибьюторов
+
+section.slide
+  h2 Выбор движка: финалисты
+  ul.x-large
+    li impactJS
+    li melonJS
+    li limeJS
+
+section.slide(style="background-image:url(/assets/mmo/impactjs.png);background-position-x:50%")
+section.slide
+  img src="/assets/mmo/impact_book.png"
+section.slide(style="background-image:url(/assets/mmo/melonjs.png);background-position-x:50%")
+section.slide(style="background-image:url(/assets/mmo/limejs.png);background-position-x:50%")
+
+section.slide
+  h1 Как происходит отрисовка?
+
+section.slide
+  h1 Canvas, SVG
+
+section.slide
+  h2 SVG
+  ul.x-large
+    li XML
+    li Векторный
+    li Retained mode
+
+section.slide
+  h2 Canvas
+  ul.x-large
+    li JS API
+    li Растровый
+    li Immidiate mode
+    li Низкоуровневый доступ к пикселям
+
+section.slide
+  h2 SVG vs Canvas
+  h4 SVG
+  ul.x-large
+    li Нужно масштабирование
+    li Надо привязывать события
+  h4 Canvas
+  ul.x-large
+    li Четкий контроль за пикселями
+    li Много объектов
+
+section.slide(style="background-size:150%;background-image:url(/assets/mmo/mapgen.png);background-position-x:50%")
+  h1 Генератор карт
+
+section.slide
+  h2 Генератор карт
+  ul.x-large
+    li.slide Угол между прямыми
+    li.slide Расположение на экране
+
+section.slide
+  h1 D3
+
+section.slide
+  h1 D3.js
+  h2.bye http://d3js.org/
+
+section.slide
+  h1 Спасибо!
+  h2.bye http://oruen.github.com/public_talks/apps/mmo/
