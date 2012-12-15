@@ -3,4 +3,4 @@
 #= require core/deck.core
 #= require_tree ./extensions
 
-$.deck('.slide')
+$.deck('.slide', {baseHeight: 768})
