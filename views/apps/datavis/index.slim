@@ -1,51 +1,132 @@
 link href="/assets/datavis.css?#{rand.denominator}" media="screen" rel="stylesheet" type="text/css"
 
 section.slide
-  h1 Data collection and visualization
+  h1 Сбор и визуализация данных
   .intro
     h3.hello Nick Recobra
     h3.hello http://twitter.com/oruen
 
 section.slide
-  h2 Data collection: reasons
+  h2 Сбор данных: причины
   .notes
     |
       Мониторинг — слежение за критическими параметрами системы и раннее обнаружение неисправностей
       Статистика — дополнительная ценность данных
   ul.x-large
-    li Monitoring
-    li Statistics
+    li Мониторинг
+    li Статистика
 
 section.slide
-  h2 Data collection: data properties
+  h2 Сбор данных: свойства данных
   ul.x-large
-    li Source
-    li Methodology
-    li Integrity
-    li Transformations
+    li Источник
+    li Методология
+    li Целостность
+    li Преобразования
 
 section.slide
-  h2 Data collection: data quality
+  h2 Сбор данных: качества данных
   ul.x-large
-    li Complete
-    li Coherent
-    li Correct
-    li aCcountable
-
-section.slide
-  h1 Tools
-
-section.slide
-  h2 Graphite
-  ul.x-large
-    li Storage
-    li Visualization tool
+    li Полнота
+    li Последовательность
+    li Точность
+    li Подотчетность
+  .notes Из Bad Data Handbook
 
 section.slide
   h1 Average, sum, derivative, group, highest, deviant, moving average, percentile...
 
 section.slide
   img.vcenter src="/assets/datavis/graphite_fullscreen_800.png" width="150%" height="150%"
+
+section.slide
+  img.vcenter src="/assets/datavis/nastachku.png"
+
+section.slide
+  img.vcenter src="/assets/datavis/kirill.jpg"
+
+section.slide
+  img.vcenter src="/assets/datavis/users_json.png" height="150%"
+
+section.slide
+  img.vcenter src="/assets/datavis/user_grab.png"
+
+section.slide
+  img.vcenter src="/assets/datavis/user_filter.png" height="150%"
+
+section.slide
+  h1 Инструменты
+
+section.slide
+  h2 Graphite
+  ul.x-large
+    li Хранение
+    li инструмент визуализации
+
+section.slide
+  h1 R project
+
+section.slide
+  img.vcenter src="/assets/datavis/r.png" height="130%"
+
+section.slide
+  h2 R project
+  ul.x-large
+    li ЯП
+    li Заточен под статистические расчеты
+
+section.slide
+  h1 R Users Demo
+
+section.slide
+  h1 Распределение по городам
+  img.vcenter src="/assets/datavis/city_population_log.png" height="120%"
+
+section.slide
+  h1 Распределение по компаниям
+
+section.slide
+  img.vcenter src="/assets/datavis/companies.png" height="120%"
+
+section.slide
+  h1 Дата регистрации
+
+section.slide
+  img.vcenter src="/assets/datavis/reg_dates.png" width="90%"
+
+section.slide
+  img.vcenter src="/assets/datavis/reg_dates.png" width="90%"
+  h1 Пики в начале и конце
+
+section.slide
+  h1 Количество регистраций день
+
+section.slide
+  img.vcenter src="/assets/datavis/daily_reg.png"
+
+section.slide
+  h1 Регистрации по городам
+
+section.slide
+  img.vcenter src="/assets/datavis/city_hist.png"
+
+section.slide
+  h1 Регистрации по компаниям
+
+section.slide
+  img.vcenter src="/assets/datavis/company_hist.png" width="90%"
+
+section.slide
+  h1 Data-Driven Documents, aka D3.js
+
+section.slide
+  h2 D3.js
+  ul.x-large
+    li JS-библиотека
+    li SVG, Canvas, HTML
+
+section.slide
+  h1 D3 Demo
 
 section.slide
   h2 D3.js
@@ -69,7 +150,8 @@ section.slide
     li "Getting Started with D3: Creating Data-Driven Documents" by Mike Dewar
     li "Bad Data Habdbook: Mapping the World of Data Problems" by Q. Ethan McCallum
     li "Effective Monitoring and Alerting For Web Operations" by Slawek Ligus
+    li "R in a Nutshell" by Joseph Adler
 
 section.slide
-  h1 Thanks!
-  h2.bye http://oruen.github.com/public_talks/apps/datavis/
+  h1 Спасибо!
+  h2.bye http://oruen.github.com/public_talks/apps/datavis/ http://oruen.github.com/nastachku
