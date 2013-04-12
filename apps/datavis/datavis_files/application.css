@@ -605,7 +605,7 @@ body.deck-container .deck-status {
     -o-transform: none;
     transform: none; }
 body {
-  background: #333333; }
+  background: #333; }
 
 body .deck-container {
   width: 100%;
